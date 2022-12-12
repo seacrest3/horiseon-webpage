@@ -23,7 +23,7 @@ The website must meet accessibility standards. This can be achieved by this comp
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assets/horiseon-webpage-mock-up.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assets/images/horiseon-webpage-mock-up.png)
 
 ### Review
 
