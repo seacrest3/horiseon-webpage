@@ -152,6 +152,16 @@ Classes used in the code are listed in the following section.
     background-color: #2589bd;
 }
 
+/*
+Refactor to group the classes
+*/
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -166,9 +176,10 @@ Classes used in the code are listed in the following section.
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
 /*
-'font-size' attribute is added to increase the fond size of lead generation to 25px to make the words more easy to read for webpage visitors.
+'font-size' attribute is added to increase the fond size to 25px to make the words more easy to read for webpage visitors.
 */
 
 .benefit-lead h3 {
@@ -177,19 +188,12 @@ Classes used in the code are listed in the following section.
     font-size: 25px;
 }
 
-/*
-'font-size' attribute is added to increase the fond size of brand awareness to 25px  on the webpage to make the words more easy to read for webpage visitors.
-*/
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 25px;
 }
 
-/*
-'font-size' attribute is added to increase the fond size of cost management to 25px in right hand column of the webpage to make the words more easy to read for webpage visitors.
-*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -214,6 +218,20 @@ Classes used in the code are listed in the following section.
     max-width: 150px;
 }
 
+/*
+Refactor to group the classes
+*/
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -240,7 +258,7 @@ Classes used in the code are listed in the following section.
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
