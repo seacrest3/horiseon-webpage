@@ -56,6 +56,21 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+'font-size' attribute is added to increase the fond size to 25px to make the words more easy to read for webpage visitors.
+*/
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
 /*
 <nav> tag is used instead of <div> in the code to signify navigation bar in the code.
 */
@@ -179,9 +194,6 @@ Refactor to group the classes
 */
 
 /*
-'font-size' attribute is added to increase the fond size to 25px to make the words more easy to read for webpage visitors.
-*/
-
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -199,7 +211,7 @@ Refactor to group the classes
     text-align: center;
     font-size: 25px;
 }
-
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -271,7 +283,9 @@ Refactor to group the classes
     max-height: 200px;
 }
 
+/*Refactor code to remove class*/
 
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -286,6 +300,7 @@ Refactor to group the classes
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
